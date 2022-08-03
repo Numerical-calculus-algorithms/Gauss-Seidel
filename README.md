@@ -1,6 +1,6 @@
 # Metodo di Gauss-Seidel
 
-Il metodo di Gauss-Seidel è un algoritmo iterativo per la risoluzione di sistemi lineari del tipo $Ax = b$ dove $A \in \R^{(n \times n)}$ e $b \in \R^n$.
+Il metodo di Gauss-Seidel è un algoritmo iterativo per la risoluzione di sistemi lineari del tipo $Ax = b$ dove $A \in \mathbb{R}^{(n \times n)}$ e $b \in \mathbb{R}^n$.
 
 ## Idea generale 
 
@@ -13,7 +13,7 @@ a_{2,1} & a_{2,2} & \dots  & a_{2, n} \\
 \vdots  & \vdots  & \ddots & \vdots   \\
 a_{n,1} & a_{n,2} & \dots  & a_{n, n} 
 \end{bmatrix}
-= 
+\= 
 \begin{bmatrix}
 a_{1,1} &   0     & \dots  & 0 \\
 a_{2,1} & a_{2,2} & \dots  & 0 \\
@@ -31,7 +31,7 @@ $$
 
 ## Iterata generale
 
-Dato in input un vettore $x^{(0)} \in \R^n$
+Dato in input un vettore $x^{(0)} \in \mathbb{R}^n$
 
 $$
 Lx^{(k+1)} = b - Ux^{(k)}
