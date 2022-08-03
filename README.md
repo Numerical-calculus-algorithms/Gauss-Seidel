@@ -1,6 +1,6 @@
 # Metodo di Gauss-Seidel
 
-Il metodo di Gauss-Seidel è un algoritmo iterativo per la risoluzione di sistemi lineari del tipo $Ax = b$ dove $A \in \mathbb{R}^{(n \times n)}$ e $b \in \mathbb{R}^n$.
+Il metodo di [Gauss](https://it.wikipedia.org/wiki/Carl_Friedrich_Gauss)-Seidel è un algoritmo iterativo per la risoluzione di sistemi lineari del tipo $Ax = b$ dove $A \in \mathbb{R}^{(n \times n)}$ e $b \in \mathbb{R}^n$.
 
 ## Idea generale 
 
